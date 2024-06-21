@@ -1,4 +1,4 @@
-﻿using Tharga.Toolkit.Console.Commands.Base;
+﻿using Tharga.Console.Commands.Base;
 
 namespace Tharga.PowerScan.Console.ConsoleCommands.Connection
 {

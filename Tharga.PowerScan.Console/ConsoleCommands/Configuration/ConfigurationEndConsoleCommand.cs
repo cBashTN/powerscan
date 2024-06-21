@@ -1,5 +1,5 @@
-﻿using Tharga.PowerScan.Interfaces;
-using Tharga.Toolkit.Console.Commands.Base;
+﻿using Tharga.Console.Commands.Base;
+using Tharga.PowerScan.Interfaces;
 
 namespace Tharga.PowerScan.Console.ConsoleCommands.Configuration
 {

@@ -2,8 +2,8 @@
 using Castle.Core;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using Tharga.Console.Interfaces;
 using Tharga.PowerScan.Interfaces;
-using Tharga.Toolkit.Console.Interfaces;
 
 namespace Tharga.PowerScan.Console.Helpers
 {

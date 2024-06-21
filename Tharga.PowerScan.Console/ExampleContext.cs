@@ -1,8 +1,8 @@
 ﻿using System;
+using Tharga.Console.Consoles;
 using Tharga.PowerScan.Entities;
 using Tharga.PowerScan.Entities.Args;
 using Tharga.PowerScan.Interfaces;
-using Tharga.Toolkit.Console.Consoles;
 
 namespace Tharga.PowerScan.Console
 {
@@ -13,7 +13,7 @@ namespace Tharga.PowerScan.Console
         public ExampleContext(ClientConsole console)
         {
             _console = console;
-            var transport = new Transport();
+            var transport = new Transport("COM27");
             Connection = new Connection(transport);
 
             Connection.ScanEvent += OnScanEvent;

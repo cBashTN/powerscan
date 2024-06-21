@@ -2,7 +2,7 @@
 using System.IO.Ports;
 using System.Linq;
 using Tharga.PowerScan.Interfaces;
-using Tharga.Toolkit.Console.Commands.Base;
+using Tharga.Console.Commands.Base;
 
 namespace Tharga.PowerScan.Console.ConsoleCommands.Connection
 {
